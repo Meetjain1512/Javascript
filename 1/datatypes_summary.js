@@ -21,7 +21,14 @@ console.log(id === anotherId);
 // Reference (Non primitive)
 
 // Array, Objects, Functions
+let user = {
+    name: "Meet",
+    age: 22,
+    email: "hello@gmail.com"
+}
 
+console.log(user.age = 33)
+console.log(user);
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
     name: "hitesh",
